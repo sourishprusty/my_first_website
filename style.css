@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(#4ac294 0%,#4bc1cc 100%);
+    display:table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size:40px ;
+    font-family:Courier ;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Cinzel Decorative',cursive;
+}
+h2{
+    font-size: 30px;
+    font-family:  Courier;
+    font-weight: 300;
+}
+#bio{
+    font-family: Franklin Gothic Medium;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: crimson;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25p;
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+}
+a{
+    text-decoration: underline;
+}
+#CONTACT{
+    background: crimson;
+}
+#CONTACT iframe{
+    width: 100%;
+}
+.CONTACT_1 h3{
+    display: inline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
